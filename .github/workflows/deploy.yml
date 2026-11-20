@@ -27,30 +27,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: |
-            web/package-lock.json
-            package-lock.json
+          cache-dependency-path: web/package-lock.json
 
-      - name: Install dependencies & Build
+      - name: Install dependencies & Build React app
+        working-directory: web
         run: |
-          if [ -d "web" ]; then
-            echo "Building from ./web folder..."
-            cd web
-            npm ci || npm install
-            npm run build
-            cd ..
-            echo "DIST_DIR=./web/dist" >> $GITHUB_ENV
-          else
-            echo "Building from repository root..."
-            npm ci || npm install
-            npm run build
-            echo "DIST_DIR=./dist" >> $GITHUB_ENV
-          fi
+          npm ci || npm install
+          npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -58,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.DIST_DIR }}
+          path: web/dist
 
       - name: Deploy to GitHub Pages
         id: deployment

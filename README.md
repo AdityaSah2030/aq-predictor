@@ -7,7 +7,7 @@ A high-precision environmental analytics platform estimating ambient $\text{PM}_
 🚀 **Production Deployment**
 
 **KolkataAQ Live Dashboard:**  
-https://adityasah2030.github.io/air-quality-predictor/
+https://adityasah2030.github.io/aq-predictor/
 
 ---
 
@@ -244,8 +244,8 @@ $$I = \frac{I_{hi} - I_{lo}}{BP_{hi} - BP_{lo}} (C - BP_{lo}) + I_{lo}$$
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/AdityaSah2030/air-quality-predictor.git
-cd air-quality-predictor
+git clone https://github.com/AdityaSah2030/aq-predictor.git
+cd aq-predictor
 ```
 
 ### 2. Set Up Python Virtual Environment

@@ -1,0 +1,29 @@
+[
+  {
+    "year": 2022,
+    "mean_pm25": 88.5,
+    "cpcb_exceed_days": 77,
+    "cpcb_exceed_pct": 63.6,
+    "who_exceed_days": 114,
+    "who_exceed_pct": 94.2,
+    "n_days": 121
+  },
+  {
+    "year": 2023,
+    "mean_pm25": 56.6,
+    "cpcb_exceed_days": 148,
+    "cpcb_exceed_pct": 40.5,
+    "who_exceed_days": 324,
+    "who_exceed_pct": 88.8,
+    "n_days": 365
+  },
+  {
+    "year": 2024,
+    "mean_pm25": 52.6,
+    "cpcb_exceed_days": 131,
+    "cpcb_exceed_pct": 35.8,
+    "who_exceed_days": 317,
+    "who_exceed_pct": 86.6,
+    "n_days": 366
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "title": "Slide 6 Worked Example: OLS from First Principles",
+  "observations": [
+    {
+      "x": 10.0,
+      "y": 20.0
+    },
+    {
+      "x": 20.0,
+      "y": 30.0
+    },
+    {
+      "x": 30.0,
+      "y": 40.0
+    },
+    {
+      "x": 40.0,
+      "y": 50.0
+    },
+    {
+      "x": 50.0,
+      "y": 60.0
+    }
+  ],
+  "step1_means": {
+    "x_mean": 30.0,
+    "y_mean": 40.0
+  },
+  "step2_slope": {
+    "ss_xy": 1000.0,
+    "ss_xx": 1000.0,
+    "slope_b": 1.0,
+    "formula": "b = \u03a3(X_i - X\u0304)(Y_i - \u0232) / \u03a3(X_i - X\u0304)\u00b2 = 1000 / 1000 = 1"
+  },
+  "step3_intercept": {
+    "intercept_a": 10.0,
+    "formula": "a = \u0232 - b\u00b7X\u0304 = 40 - 1\u00b730 = 10"
+  },
+  "step4_prediction": {
+    "equation": "\u0176 = 10 + X"
+  },
+  "evaluation_metrics": {
+    "mae": 0.0,
+    "mse": 0.0,
+    "rmse": 0.0,
+    "r2": 1.0
+  },
+  "takeaway": "The sample dataset demonstrates exact linear estimation, not real-world predictive accuracy."
+}

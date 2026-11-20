@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "total_hourly_records": 20472,
+  "invalid_pm25_hourly_dropped": 0,
+  "days_insufficient_hourly_readings": 0,
+  "outliers_flagged": 3,
+  "imputed_predictor_days": 0,
+  "dropped_missing_target_days": 0,
+  "total_clean_days": 853,
+  "date_range_start": "2022-09-01",
+  "date_range_end": "2024-12-31"
+}

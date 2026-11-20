@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "monthly_history": [
+    {
+      "year_month": "2022-09",
+      "mean_pm25": 31.1,
+      "median_pm25": 26.3,
+      "p90_pm25": 52.4,
+      "n_days": 29,
+      "category_pcts": {
+        "Good": 55.2,
+        "Satisfactory": 37.9,
+        "Moderately polluted": 3.4,
+        "Poor": 3.4
+      }
+    },
+    {
+      "year_month": "2022-10",
+      "mean_pm25": 67.6,
+      "median_pm25": 64.0,
+      "p90_pm25": 116.3,
+      "n_days": 31,
+      "category_pcts": {
+        "Poor": 29.0,
+        "Good": 29.0,
+        "Moderately polluted": 19.4,
+        "Satisfactory": 16.1,
+        "Very poor": 6.5
+      }
+    },
+    {
+      "year_month": "2022-11",
+      "mean_pm25": 124.3,
+      "median_pm25": 130.9,
+      "p90_pm25": 147.6,
+      "n_days": 30,
+      "category_pcts": {
+        "Very poor": 63.3,
+        "Poor": 26.7,
+        "Moderately polluted": 10.0
+      }
+    },
+    {
+      "year_month": "2022-12",
+      "mean_pm25": 128.4,
+      "median_pm25": 125.2,
+      "p90_pm25": 180.4,
+      "n_days": 31,
+      "category_pcts": {
+        "Very poor": 58.1,
+        "Poor": 22.6,
+        "Moderately polluted": 9.7,
+        "Good": 6.5,
+        "Satisfactory": 3.2
+      }
+    },
+    {
+      "year_month": "2023-01",
+      "mean_pm25": 136.4,
+      "median_pm25": 132.2,
+      "p90_pm25": 185.6,
+      "n_days": 31,
+      "category_pcts": {
+        "Very poor": 61.3,
+        "Poor": 29.0,
+        "Moderately polluted": 9.7
+      }
+    },
+    {
+      "year_month": "2023-02",
+      "mean_pm25": 78.7,
+      "median_pm25": 71.1,
+      "p90_pm25": 116.2,
+      "n_days": 28,
+      "category_pcts": {
+        "Satisfactory": 35.7,
+        "Poor": 28.6,
+        "Moderately polluted": 28.6,
+        "Very poor": 7.1
+      }
+    },
+    {
+      "year_month": "2023-03",
+      "mean_pm25": 66.9,
+      "median_pm25": 60.9,
+      "p90_pm25": 119.6,
+      "n_days": 31,
+      "category_pcts": {
+        "Moderately polluted": 41.9,
+        "Satisfactory": 35.5,
+        "Very poor": 9.7,
+        "Poor": 6.5,
+        "Good": 6.5
+      }
+    },
+    {
+      "year_month": "2023-04",
+      "mean_pm25": 55.7,
+      "median_pm25": 52.7,
+      "p90_pm25": 70.6,
+      "n_days": 30,
+      "category_pcts": {
+        "Satisfactory": 66.7,
+        "Moderately polluted": 33.3
+      }
+    },
+    {
+      "year_month": "2023-05",
+      "mean_pm25": 37.0,
+      "median_pm25": 35.1,
+      "p90_pm25": 50.5,
+      "n_days": 31,
+      "category_pcts": {
+        "Satisfactory": 58.1,
+        "Good": 35.5,
+        "Moderately polluted": 6.5
+      }
+    },
+    {
+      "year_month": "2023-06",
+      "mean_pm25": 28.8,
+      "median_pm25": 27.2,
+      "p90_pm25": 42.1,
+      "n_days": 30,
+      "category_pcts": {
+        "Good": 56.7,
+        "Satisfactory": 43.3
+      }
+    },
+    {
+      "year_month": "2023-07",
+      "mean_pm25": 12.3,
+      "median_pm25": 10.9,
+      "p90_pm25": 17.1,
+      "n_days": 31,
+      "category_pcts": {
+        "Good": 100.0
+      }
+    },
+    {
+      "year_month": "2023-08",
+      "mean_pm25": 38.2,
+      "median_pm25": 31.1,
+      "p90_pm25": 60.9,
+      "n_days": 31,
+      "category_pcts": {
+        "Good": 48.4,
+        "Satisfactory": 35.5,
+        "Moderately polluted": 12.9,
+        "Poor": 3.2
+      }
+    },
+    {
+      "year_month": "2023-09",
+      "mean_pm25": 22.6,
+      "median_pm25": 15.9,
+      "p90_pm25": 51.0,
+      "n_days": 30,
+      "category_pcts": {
+        "Good": 80.0,
+        "Satisfactory": 13.3,
+        "Moderately polluted": 6.7
+      }
+    },
+    {
+      "year_month": "2023-10",
+      "mean_pm25": 57.5,
+      "median_pm25": 63.0,
+      "p90_pm25": 94.5,
+      "n_days": 31,
+      "category_pcts": {
+        "Moderately polluted": 45.2,
+        "Good": 22.6,
+        "Satisfactory": 19.4,
+        "Poor": 12.9
+      }
+    },
+    {
+      "year_month": "2023-11",
+      "mean_pm25": 77.4,
+      "median_pm25": 74.5,
+      "p90_pm25": 121.0,
+      "n_days": 30,
+      "category_pcts": {
+        "Moderately polluted": 36.7,
+        "Satisfactory": 23.3,
+        "Poor": 20.0,
+        "Very poor": 13.3,
+        "Good": 6.7
+      }
+    },
+    {
+      "year_month": "2023-12",
+      "mean_pm25": 68.9,
+      "median_pm25": 69.1,
+      "p90_pm25": 90.1,
+      "n_days": 31,
+      "category_pcts": {
+        "Moderately polluted": 61.3,
+        "Satisfactory": 22.6,
+        "Poor": 12.9,
+        "Good": 3.2
+      }
+    },
+    {
+      "year_month": "2024-01",
+      "mean_pm25": 94.3,
+      "median_pm25": 92.2,
+      "p90_pm25": 114.2,
+      "n_days": 31,
+      "category_pcts": {
+        "Poor": 48.4,
+        "Moderately polluted": 41.9,
+        "Very poor": 6.5,
+        "Satisfactory": 3.2
+      }
+    },
+    {
+      "year_month": "2024-02",
+      "mean_pm25": 71.2,
+      "median_pm25": 71.1,
+      "p90_pm25": 95.7,
+      "n_days": 29,
+      "category_pcts": {
+        "Moderately polluted": 48.3,
+        "Satisfactory": 31.0,
+        "Poor": 20.7
+      }
+    },
+    {
+      "year_month": "2024-03",
+      "mean_pm25": 50.3,
+      "median_pm25": 48.2,
+      "p90_pm25": 75.1,
+      "n_days": 31,
+      "category_pcts": {
+        "Satisfactory": 64.5,
+        "Moderately polluted": 29.0,
+        "Good": 6.5
+      }
+    },
+    {
+      "year_month": "2024-04",
+      "mean_pm25": 43.2,
+      "median_pm25": 39.0,
+      "p90_pm25": 65.2,
+      "n_days": 30,
+      "category_pcts": {
+        "Satisfactory": 66.7,
+        "Moderately polluted": 20.0,
+        "Good": 13.3
+      }
+    },
+    {
+      "year_month": "2024-05",
+      "mean_pm25": 18.9,
+      "median_pm25": 19.2,
+      "p90_pm25": 27.5,
+      "n_days": 31,
+      "category_pcts": {
+        "Good": 100.0
+      }
+    },
+    {
+      "year_month": "2024-06",
+      "mean_pm25": 26.2,
+      "median_pm25": 24.3,
+      "p90_pm25": 42.3,
+      "n_days": 30,
+      "category_pcts": {
+        "Good": 63.3,
+        "Satisfactory": 36.7
+      }
+    },
+    {
+      "year_month": "2024-07",
+      "mean_pm25": 15.6,
+      "median_pm25": 13.5,
+      "p90_pm25": 22.5,
+      "n_days": 31,
+      "category_pcts": {
+        "Good": 96.8,
+        "Satisfactory": 3.2
+      }
+    },
+    {
+      "year_month": "2024-08",
+      "mean_pm25": 21.3,
+      "median_pm25": 21.3,
+      "p90_pm25": 30.5,
+      "n_days": 31,
+      "category_pcts": {
+        "Good": 87.1,
+        "Satisfactory": 12.9
+      }
+    },
+    {
+      "year_month": "2024-09",
+      "mean_pm25": 23.8,
+      "median_pm25": 16.7,
+      "p90_pm25": 49.0,
+      "n_days": 30,
+      "category_pcts": {
+        "Good": 73.3,
+        "Satisfactory": 20.0,
+        "Moderately polluted": 6.7
+      }
+    },
+    {
+      "year_month": "2024-10",
+      "mean_pm25": 45.0,
+      "median_pm25": 42.5,
+      "p90_pm25": 80.0,
+      "n_days": 31,
+      "category_pcts": {
+        "Satisfactory": 41.9,
+        "Good": 32.3,
+        "Moderately polluted": 25.8
+      }
+    },
+    {
+      "year_month": "2024-11",
+      "mean_pm25": 108.7,
+      "median_pm25": 111.8,
+      "p90_pm25": 160.4,
+      "n_days": 30,
+      "category_pcts": {
+        "Very poor": 33.3,
+        "Poor": 26.7,
+        "Moderately polluted": 26.7,
+        "Satisfactory": 13.3
+      }
+    },
+    {
+      "year_month": "2024-12",
+      "mean_pm25": 113.5,
+      "median_pm25": 113.8,
+      "p90_pm25": 146.0,
+      "n_days": 31,
+      "category_pcts": {
+        "Very poor": 41.9,
+        "Poor": 41.9,
+        "Moderately polluted": 12.9,
+        "Satisfactory": 3.2
+      }
+    }
+  ],
+  "climatology": [
+    {
+      "month_num": 1,
+      "month_name": "Jan",
+      "mean_pm25": 115.3,
+      "p25": 87.9,
+      "p75": 131.8
+    },
+    {
+      "month_num": 2,
+      "month_name": "Feb",
+      "mean_pm25": 74.9,
+      "p25": 56.7,
+      "p75": 91.3
+    },
+    {
+      "month_num": 3,
+      "month_name": "Mar",
+      "mean_pm25": 58.6,
+      "p25": 36.9,
+      "p75": 70.3
+    },
+    {
+      "month_num": 4,
+      "month_name": "Apr",
+      "mean_pm25": 49.5,
+      "p25": 37.6,
+      "p75": 60.9
+    },
+    {
+      "month_num": 5,
+      "month_name": "May",
+      "mean_pm25": 28.0,
+      "p25": 19.0,
+      "p75": 34.8
+    },
+    {
+      "month_num": 6,
+      "month_name": "Jun",
+      "mean_pm25": 27.5,
+      "p25": 17.9,
+      "p75": 35.5
+    },
+    {
+      "month_num": 7,
+      "month_name": "Jul",
+      "mean_pm25": 13.9,
+      "p25": 9.3,
+      "p75": 17.6
+    },
+    {
+      "month_num": 8,
+      "month_name": "Aug",
+      "mean_pm25": 29.8,
+      "p25": 18.4,
+      "p75": 34.4
+    },
+    {
+      "month_num": 9,
+      "month_name": "Sep",
+      "mean_pm25": 25.8,
+      "p25": 13.6,
+      "p75": 33.9
+    },
+    {
+      "month_num": 10,
+      "month_name": "Oct",
+      "mean_pm25": 56.7,
+      "p25": 28.3,
+      "p75": 80.0
+    },
+    {
+      "month_num": 11,
+      "month_name": "Nov",
+      "mean_pm25": 103.5,
+      "p25": 69.6,
+      "p75": 136.5
+    },
+    {
+      "month_num": 12,
+      "month_name": "Dec",
+      "mean_pm25": 103.6,
+      "p25": 73.5,
+      "p75": 126.2
+    }
+  ]
+}

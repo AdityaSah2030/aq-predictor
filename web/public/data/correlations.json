@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "pearson": {
+    "pm25": {
+      "pm25": 1.0,
+      "temp_c": -0.64,
+      "rh_pct": -0.471,
+      "wind_kmh": -0.53,
+      "rain_mm": -0.41,
+      "pressure_hpa": 0.688
+    },
+    "temp_c": {
+      "pm25": -0.64,
+      "temp_c": 1.0,
+      "rh_pct": 0.109,
+      "wind_kmh": 0.389,
+      "rain_mm": 0.191,
+      "pressure_hpa": -0.768
+    },
+    "rh_pct": {
+      "pm25": -0.471,
+      "temp_c": 0.109,
+      "rh_pct": 1.0,
+      "wind_kmh": 0.193,
+      "rain_mm": 0.561,
+      "pressure_hpa": -0.426
+    },
+    "wind_kmh": {
+      "pm25": -0.53,
+      "temp_c": 0.389,
+      "rh_pct": 0.193,
+      "wind_kmh": 1.0,
+      "rain_mm": 0.33,
+      "pressure_hpa": -0.577
+    },
+    "rain_mm": {
+      "pm25": -0.41,
+      "temp_c": 0.191,
+      "rh_pct": 0.561,
+      "wind_kmh": 0.33,
+      "rain_mm": 1.0,
+      "pressure_hpa": -0.495
+    },
+    "pressure_hpa": {
+      "pm25": 0.688,
+      "temp_c": -0.768,
+      "rh_pct": -0.426,
+      "wind_kmh": -0.577,
+      "rain_mm": -0.495,
+      "pressure_hpa": 1.0
+    }
+  },
+  "spearman": {
+    "pm25": {
+      "pm25": 1.0,
+      "temp_c": -0.635,
+      "rh_pct": -0.608,
+      "wind_kmh": -0.612,
+      "rain_mm": -0.671,
+      "pressure_hpa": 0.755
+    },
+    "temp_c": {
+      "pm25": -0.635,
+      "temp_c": 1.0,
+      "rh_pct": 0.191,
+      "wind_kmh": 0.412,
+      "rain_mm": 0.375,
+      "pressure_hpa": -0.809
+    },
+    "rh_pct": {
+      "pm25": -0.608,
+      "temp_c": 0.191,
+      "rh_pct": 1.0,
+      "wind_kmh": 0.177,
+      "rain_mm": 0.817,
+      "pressure_hpa": -0.508
+    },
+    "wind_kmh": {
+      "pm25": -0.612,
+      "temp_c": 0.412,
+      "rh_pct": 0.177,
+      "wind_kmh": 1.0,
+      "rain_mm": 0.3,
+      "pressure_hpa": -0.513
+    },
+    "rain_mm": {
+      "pm25": -0.671,
+      "temp_c": 0.375,
+      "rh_pct": 0.817,
+      "wind_kmh": 0.3,
+      "rain_mm": 1.0,
+      "pressure_hpa": -0.636
+    },
+    "pressure_hpa": {
+      "pm25": 0.755,
+      "temp_c": -0.809,
+      "rh_pct": -0.508,
+      "wind_kmh": -0.513,
+      "rain_mm": -0.636,
+      "pressure_hpa": 1.0
+    }
+  },
+  "slr_per_variable": {
+    "temp_c": {
+      "feature": "temp_c",
+      "x_mean": 26.087371512481646,
+      "y_mean": 59.9447503671072,
+      "slope_b": -6.145415748229795,
+      "intercept_a": 220.26249408983324,
+      "pearson_r": -0.6255518092858638,
+      "r2": 0.3913150661008178,
+      "ss_xx": 12735.651395007342,
+      "ss_xy": -78265.87264684288,
+      "ss_yy": 1229128.0555728404,
+      "se_slope": 0.2941368068871925,
+      "p_value": 0.0,
+      "equation": "\u0176 = 220.26 + -6.15\u00b7temp_c"
+    },
+    "rh_pct": {
+      "feature": "rh_pct",
+      "x_mean": 75.99853157121879,
+      "y_mean": 59.9447503671072,
+      "slope_b": -1.6060769916376127,
+      "intercept_a": 182.0042433218864,
+      "pearson_r": -0.3909273985591685,
+      "r2": 0.152824230944239,
+      "ss_xx": 72820.99853157121,
+      "ss_xy": -116956.1302496329,
+      "ss_yy": 1229128.0555728404,
+      "se_slope": 0.14511828145930747,
+      "p_value": 0.0,
+      "equation": "\u0176 = 182.00 + -1.61\u00b7rh_pct"
+    },
+    "wind_kmh": {
+      "feature": "wind_kmh",
+      "x_mean": 9.114831130690163,
+      "y_mean": 59.9447503671072,
+      "slope_b": -6.11877018499122,
+      "intercept_a": 115.71630733080397,
+      "pearson_r": -0.5184157061263175,
+      "r2": 0.2687548443584484,
+      "ss_xx": 8823.180205580029,
+      "ss_xy": -53987.011978707786,
+      "ss_yy": 1229128.0555728404,
+      "se_slope": 0.38733131033761886,
+      "p_value": 0.0,
+      "equation": "\u0176 = 115.72 + -6.12\u00b7wind_kmh"
+    },
+    "rain_mm": {
+      "feature": "rain_mm",
+      "x_mean": 4.575477239353892,
+      "y_mean": 59.9447503671072,
+      "slope_b": -1.9462602365540154,
+      "intercept_a": 68.84981978131961,
+      "pearson_r": -0.40033084239162364,
+      "r2": 0.160264783369987,
+      "ss_xx": 52003.60046989721,
+      "ss_xy": -101212.53975220265,
+      "ss_yy": 1229128.0555728404,
+      "se_slope": 0.1709693087117733,
+      "p_value": 0.0,
+      "equation": "\u0176 = 68.85 + -1.95\u00b7rain_mm"
+    },
+    "pressure_hpa": {
+      "feature": "pressure_hpa",
+      "x_mean": 1007.3073421439061,
+      "y_mean": 59.9447503671072,
+      "slope_b": 4.922772958812242,
+      "intercept_a": -4898.800594751945,
+      "pearson_r": 0.6704507565141354,
+      "r2": 0.4495042169103765,
+      "ss_xx": 22798.763289280476,
+      "ss_xy": 112233.13541483117,
+      "ss_yy": 1229128.0555728404,
+      "se_slope": 0.20906678091691544,
+      "p_value": 0.0,
+      "equation": "\u0176 = -4898.80 + 4.92\u00b7pressure_hpa"
+    }
+  }
+}

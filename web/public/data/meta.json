@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "city": "Kolkata",
+  "latitude": 22.5726,
+  "longitude": 88.3639,
+  "timezone": "Asia/Kolkata",
+  "total_days": 852,
+  "date_range_start": "2022-09-02",
+  "date_range_end": "2024-12-31",
+  "headline_model": "m3",
+  "station_mode": "city",
+  "standards": {
+    "cpcb_pm25_standard_24h": 60.0,
+    "who_pm25_guideline_24h": 15.0
+  },
+  "sources": [
+    {
+      "name": "Copernicus Atmosphere Monitoring Service (CAMS)",
+      "type": "Air Quality Reanalysis"
+    },
+    {
+      "name": "Open-Meteo Historical Archive",
+      "type": "Meteorological Observations"
+    }
+  ],
+  "license": "Open Data Commons / CC-BY-4.0"
+}

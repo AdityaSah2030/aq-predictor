@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-20T18:18:36.549291+00:00",
+  "schema_version": "1.0",
+  "is_synthetic": false,
+  "Monsoon": {
+    "mean": 24.4,
+    "median": 20.0,
+    "min": 7.2,
+    "q1": 13.7,
+    "q3": 31.1,
+    "max": 100.2,
+    "n_days": 273
+  },
+  "Post-monsoon": {
+    "mean": 79.7,
+    "median": 73.2,
+    "min": 11.1,
+    "q1": 46.3,
+    "q3": 111.4,
+    "max": 204.4,
+    "n_days": 183
+  },
+  "Pre-monsoon": {
+    "mean": 45.3,
+    "median": 41.9,
+    "min": 8.3,
+    "q1": 28.7,
+    "q3": 58.6,
+    "max": 154.4,
+    "n_days": 184
+  },
+  "Winter": {
+    "mean": 99.3,
+    "median": 93.1,
+    "min": 0.7,
+    "q1": 71.8,
+    "q3": 121.2,
+    "max": 245.8,
+    "n_days": 212
+  }
+}

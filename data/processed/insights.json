@@ -1,0 +1,193 @@
+[
+  {
+    "id": "worst_season",
+    "title": "Winter is Kolkata's most polluted season",
+    "text": "Average PM2.5 in winter was 99.3 \u00b5g/m\u00b3, approximately 4.1\u00d7 higher than monsoon (24.4 \u00b5g/m\u00b3).",
+    "metric": {
+      "value": 99.3,
+      "unit": "\u00b5g/m\u00b3",
+      "compare_value": 24.4
+    },
+    "severity": "alert",
+    "chart_ref": "seasonal_bar",
+    "evidence": [
+      "seasonal.json#/seasonal_summary"
+    ]
+  },
+  {
+    "id": "month_extremes",
+    "title": "January peaks while July clears the air",
+    "text": "January recorded the highest average concentration (115.3 \u00b5g/m\u00b3), whereas July saw the lowest (13.9 \u00b5g/m\u00b3).",
+    "metric": {
+      "value": 115.3,
+      "unit": "\u00b5g/m\u00b3",
+      "compare_value": 13.9
+    },
+    "severity": "info",
+    "chart_ref": "monthly_climatology",
+    "evidence": [
+      "monthly.json#/climatology"
+    ]
+  },
+  {
+    "id": "aqi_shares",
+    "title": "58% of days had acceptable air quality",
+    "text": "Across the observation window, 58.2% of days met Good or Satisfactory levels, while 22.7% experienced Poor to Severe air.",
+    "metric": {
+      "value": 58.2,
+      "unit": "%",
+      "compare_value": 22.7
+    },
+    "severity": "info",
+    "chart_ref": "aqi_stacked_bar",
+    "evidence": [
+      "monthly.json#/category_distribution"
+    ]
+  },
+  {
+    "id": "cpcb_exceedance",
+    "title": "42% of days exceeded the CPCB 24-hr threshold",
+    "text": "356 of 852 recorded days (41.8%) surpassed India's National Ambient Air Quality standard of 60 \u00b5g/m\u00b3.",
+    "metric": {
+      "value": 41.8,
+      "unit": "%",
+      "threshold": 60.0
+    },
+    "severity": "alert",
+    "chart_ref": "yearly_trend",
+    "evidence": [
+      "yearly.json#/cpcb_exceedance"
+    ]
+  },
+  {
+    "id": "weekend_effect",
+    "title": "Weekend air quality comparison",
+    "text": "No statistically significant difference between weekdays (59.1 \u00b5g/m\u00b3) and weekends (60.4 \u00b5g/m\u00b3, p=0.69).",
+    "metric": {
+      "value": 59.1,
+      "unit": "\u00b5g/m\u00b3",
+      "compare_value": 60.4
+    },
+    "severity": "good",
+    "chart_ref": "weekday_bar",
+    "evidence": [
+      "correlations.json#/weekday_ttest"
+    ]
+  },
+  {
+    "id": "wind_effect",
+    "title": "Atmospheric ventilation disperses pollution",
+    "text": "Holding other factors fixed, each +1 km/h increase in wind speed is associated with a 2.68 \u00b5g/m\u00b3 decrease in daily PM2.5 (p < 0.001).",
+    "metric": {
+      "value": -2.68,
+      "unit": "\u00b5g/m\u00b3 per km/h"
+    },
+    "severity": "good",
+    "chart_ref": "weather_scatter_wind",
+    "evidence": [
+      "models.json#/m3/coefficients/wind_kmh"
+    ]
+  },
+  {
+    "id": "temp_effect",
+    "title": "Thermal inversions trap particulate matter in cool weather",
+    "text": "Holding other factors constant, cooler ambient temperatures are associated with elevated PM2.5 concentrations (slope -3.96 \u00b5g/m\u00b3 per \u00b0C, p < 0.001).",
+    "metric": {
+      "value": -3.96,
+      "unit": "\u00b5g/m\u00b3 per \u00b0C"
+    },
+    "severity": "info",
+    "chart_ref": "weather_scatter_temp",
+    "evidence": [
+      "models.json#/m3/coefficients/temp_c"
+    ]
+  },
+  {
+    "id": "rain_scavenging",
+    "title": "Wet deposition cleans the atmosphere",
+    "text": "Days with precipitation (>2.5 mm) averaged 28.4 \u00b5g/m\u00b3 PM2.5 compared to 76.7 \u00b5g/m\u00b3 on dry days.",
+    "metric": {
+      "value": 28.4,
+      "unit": "\u00b5g/m\u00b3",
+      "compare_value": 76.7
+    },
+    "severity": "good",
+    "chart_ref": "weather_scatter_rain",
+    "evidence": [
+      "correlations.json#/rain_effect"
+    ]
+  },
+  {
+    "id": "model_quality",
+    "title": "Model accurately captures macroscopic seasonal variations",
+    "text": "The headline regression model achieves an R\u00b2 of 0.76 and RMSE of 23.1 \u00b5g/m\u00b3 on unseen chronological test data (47% exact category accuracy).",
+    "metric": {
+      "value": 23.1,
+      "unit": "\u00b5g/m\u00b3",
+      "r2": 0.76
+    },
+    "severity": "good",
+    "chart_ref": "actual_vs_predicted",
+    "evidence": [
+      "metrics.json#/chrono/m3/test"
+    ]
+  },
+  {
+    "id": "hardest_season",
+    "title": "Post-monsoon exhibits the highest prediction uncertainty",
+    "text": "Prediction error is highest during post-monsoon (MAE 23.4 \u00b5g/m\u00b3), where boundary layer dynamics and sporadic episodic events create sharp non-linear swings.",
+    "metric": {
+      "value": 23.4,
+      "unit": "\u00b5g/m\u00b3 MAE"
+    },
+    "severity": "alert",
+    "chart_ref": "residual_seasonal_box",
+    "evidence": [
+      "residuals.json#/seasonal_boxes"
+    ]
+  },
+  {
+    "id": "peak_pollution_event",
+    "title": "Historical maximum reached 245.8 \u00b5g/m\u00b3",
+    "text": "The highest observed 24-hr concentration occurred on 2023-01-22 (245.8 \u00b5g/m\u00b3, Category: Very poor).",
+    "metric": {
+      "value": 245.8,
+      "unit": "\u00b5g/m\u00b3",
+      "date": "2023-01-22"
+    },
+    "severity": "alert",
+    "chart_ref": "calendar_heatmap",
+    "evidence": [
+      "daily.json#/extremes"
+    ]
+  },
+  {
+    "id": "longest_streak",
+    "title": "Longest consecutive pollution episode lasted 24 days",
+    "text": "The city experienced a stretch of 24 consecutive days with air quality categorized as Poor, Very Poor, or Severe (ending 2023-02-01).",
+    "metric": {
+      "value": 24,
+      "unit": "days",
+      "end_date": "2023-02-01"
+    },
+    "severity": "alert",
+    "chart_ref": "calendar_heatmap",
+    "evidence": [
+      "daily.json#/streaks"
+    ]
+  },
+  {
+    "id": "data_integrity",
+    "title": "852 verified daily observations analyzed",
+    "text": "All calculations utilize real meteorological reanalysis and atmospheric sensor records for Kolkata (Coordinates: 22.57\u00b0N, 88.36\u00b0E) without data fabrication.",
+    "metric": {
+      "value": 852,
+      "unit": "days"
+    },
+    "severity": "info",
+    "chart_ref": "data_quality_donut",
+    "evidence": [
+      "data_quality.json#/summary"
+    ]
+  }
+]
